@@ -66,10 +66,12 @@ INNER JOIN Autores A on A.AutorID = L.AutorID
 
 update Livros
 set  AutorID = 5
-where LivrosID = 2
+where LivroID = 2
 
 
 Delete from Autores
 where AutorID = 3
 
 Drop table Autores,Livros,Emprestimos
+
+
